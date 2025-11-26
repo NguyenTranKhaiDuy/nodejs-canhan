@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-pro-hoidanit",
+  "version": "1.0.0",
+  "description": "nodejs pro",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenTranKhaiDuy/nodejs-canhan.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Nguyen Tran Khai Duy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenTranKhaiDuy/nodejs-canhan/issues"
+  },
+  "homepage": "https://github.com/NguyenTranKhaiDuy/nodejs-canhan#readme"
+}

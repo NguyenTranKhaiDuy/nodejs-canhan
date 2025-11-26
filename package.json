@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/NguyenTranKhaiDuy/nodejs-canhan/issues"
   },
-  "homepage": "https://github.com/NguyenTranKhaiDuy/nodejs-canhan#readme"
+  "homepage": "https://github.com/NguyenTranKhaiDuy/nodejs-canhan#readme",
+  "dependencies": {
+    "express": "5.0.1"
+  }
 }

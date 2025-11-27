@@ -1,5 +1,6 @@
 import express from "express";
 import 'dotenv/config'
+import webRoutes from "./routes/web";
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -8,13 +9,11 @@ const PORT = process.env.PORT || 8080;
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 
-app.get("/", (req, res) => {
-    res.render("home.ejs")
-})
+// config routes
+webRoutes(app);
 
-app.get("/home", (req, res) => {
-    res.send("Peter")
-})
+// config static files: images, css, javascript
+app.use(express.static('public'));
 
 app.listen(PORT, () => {
     console.log(`My app: ${PORT}`);
